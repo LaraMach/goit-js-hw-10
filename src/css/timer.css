@@ -1,0 +1,57 @@
+.timer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.value {
+  font-size: 64px;
+  font-weight: 700;
+  background-color: #1c1b1f;
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px 24px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.label {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #1c1b1f;
+}
+
+#datetime-picker {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 24px;
+  display: block;
+  margin-inline: auto;
+}
+
+[data-start] {
+  display: block;
+  margin: 16px auto 0;
+  padding: 10px 24px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+[data-start]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
